@@ -7,7 +7,7 @@ const textArea = document.querySelector('textarea');
 const button = document.querySelector("button");
 const input = document.querySelector("input");
 const audio = new Audio("../audios/notification.mp3");
-
+// practical
 
 let notes = JSON.parse(localStorage.getItem('notes') || '[]');
 
